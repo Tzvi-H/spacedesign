@@ -1,0 +1,39 @@
+main {
+  background-color: #FFFFFF;
+  padding: 123px 0 213px;
+}
+
+main > section {
+  width: 816px;
+  margin: 0 auto;
+  text-align: center;
+  color: #45494D;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+main section:first-child {
+  margin-bottom: 135px;
+}
+
+main span {
+  padding: 0 29px;
+}
+
+main ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-vertical > img {
+  display: block;
+  margin-bottom: 33px;
+}

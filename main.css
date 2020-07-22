@@ -1,0 +1,87 @@
+@import url('css-reset.css');
+
+html {
+  box-sizing: border-box;
+  font-family: Avenir, Nunito, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body > header {
+  background: #2F2840 url('images/bg_body.gif');
+  text-align: center;
+  padding: 130px 0 50px;
+  background-repeat: repeat;
+}
+
+header nav {
+  margin-top: 125px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 430px;
+  margin: 0 auto;
+}
+
+header a {
+  color: #CACACA;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.current-link {
+  color: #6CB6FC;
+  font-weight: 900;
+}
+
+body > footer {
+  background-color: #E7E7E7;
+  color: #B2B2B2;
+}
+
+footer > nav {
+  width: 560px;
+  margin: 0 auto;
+  padding-bottom: 77px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer > p {
+  width: 500px;
+  padding: 88px 0 46px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.social {
+  background:
+    transparent
+    url("https://d3jtzah944tvom.cloudfront.net/202/projects/lesson_7/spacedesign/images/icons_social-media.png")
+    0 0 no-repeat;
+  display: block;
+  height: 46px;  
+  width: 46px;
+}
+
+.facebook {
+  background-position: 0 -46px;
+}
+
+.email {
+  background-position: 0 -92px;
+}
+
+.instagram {
+  background-position: 0 -138px;
+}
+

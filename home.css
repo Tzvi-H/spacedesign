@@ -1,0 +1,33 @@
+main {
+  background-color: #FFFFFF;
+  padding: 123px 0 46px;
+}
+
+main > section {
+  width: 816px;
+  margin: 0 auto;
+  text-align: center;
+  color: #45494D;
+}
+
+section h2 {
+  font-size: 2rem;
+}
+
+main section:last-child h2 {
+  margin: 80px 0 56px;
+}
+
+section h3 {
+  color: #3A57B2;
+  margin: 46px 0 25px;
+  font-size: 1.6rem;
+}
+
+main span {
+  padding: 0 24px;
+}
+
+section p {
+  font-size: 1.2rem;
+}

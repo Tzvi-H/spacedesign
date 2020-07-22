@@ -1,0 +1,30 @@
+main {
+  background-color: #FFFFFF;
+  padding: 123px 0 54px;
+}
+
+main > section {
+  margin: 0 auto;
+  text-align: center;
+  color: #45494D;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 37px;
+}
+
+main span {
+  padding: 0 29px;
+}
+
+.project-name-center {
+  width: 816px;
+  margin-bottom: 42px;
+}
+
+.project-name-center h3 {
+  color: #3A57B2;
+  margin: 46px 0 25px;
+  font-size: 1.6rem;
+}
